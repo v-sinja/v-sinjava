@@ -30,7 +30,6 @@ replay_pid*
 *.jar
 *.sw?
 *~
-
 .#*
 .*.md.html
 
@@ -48,12 +47,13 @@ replay_pid*
 .vscode
 .devcontainer
 
-/code
-MANIFEST.MF
-_site/
 activemq-data
 bin
 build
+
+/code
+MANIFEST.MF
+_site/
 !/**/src/**/bin
 !/**/src/**/build
 build.log
